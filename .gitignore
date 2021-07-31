@@ -1,3 +1,4 @@
 config.json
 /vendor
-composer.json
+composer.phar
+.git
