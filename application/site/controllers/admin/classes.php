@@ -91,7 +91,7 @@ class classesController extends Controller{
 
     function students($id){
 
-        return view("students/all", "default", ["class" => Classes::getClass($id), "students" => Classes::getFullStudents($id)]);
+        return view("admin/students/all", "default", ["class" => Classes::getClass($id), "students" => Classes::getFullStudents($id)]);
 
     }
 
